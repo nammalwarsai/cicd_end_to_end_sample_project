@@ -116,18 +116,20 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🚀 My App with ci cd workflow added </h1>
+        <h1>🚀 CRUD App - CI/CD Pipeline Active</h1>
+        <p className="subtitle">Full Stack • React + Express + Supabase</p>
         <p className="status">
           Backend: {' '}
           <span className={backendStatus.includes('Connected') || backendStatus.includes('connected') ? 'status-ok' : 'status-error'}>
             {loading ? 'Loading...' : backendStatus}
           </span>
         </p>
+        <p className="version">v1.0.1 - Deployed via GitHub Actions ✅</p>
       </header>
 
       <main className="main-content">
         <div className="card">
-          <h2>Database Data</h2>
+          <h2>📊 Database Data</h2>
           <p>Manage your data with full CRUD operations</p>
           
           <div className="button-group">
