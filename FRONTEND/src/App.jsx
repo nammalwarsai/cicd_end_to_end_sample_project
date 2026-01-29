@@ -116,7 +116,7 @@ const App = () => {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>🚀 My App</h1>
+        <h1>🚀 My App with ci cd workflow added </h1>
         <p className="status">
           Backend: {' '}
           <span className={backendStatus.includes('Connected') || backendStatus.includes('connected') ? 'status-ok' : 'status-error'}>
